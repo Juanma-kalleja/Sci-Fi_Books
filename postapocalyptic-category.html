@@ -6,13 +6,27 @@
     <link href="https://fonts.googleapis.com/css2?family=Trispace:wght@300;400;500;600;800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="./img/logo-icon/logo-XS.png"/>
     <title>Social Sci-Fi category</title>
     <script src="https://kit.fontawesome.com/a5fe1ac7ee.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header class="nav-container">
         <nav class="navbar">
-            <h1 id="navbar-logo">SCI-FI</h1>
+            <div class="logo-container">
+                <a href="index.html" class="top-log">
+                    <img id="logo" 
+                    
+                    srcset="
+                        ./img/logo-icon/logo-S.png 32w, 
+                        ./img/logo-icon/logo-M.png 48w" 
+                    sizes="(max-width: 850px) 32px,
+                            48px" 
+                    src="./img/logo-icon/logo-M.png" 
+                    alt="Logo SciFi books">
+                </a>
+                <span id="navbar-logo">SCI-FI</span>
+            </div>
             <div class="menu-toggle" id="mobile-menu">
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -35,7 +49,7 @@
             <section class="main-info">
                 <div class="main-container">
                     <div class="main-img-container">
-                        <img src="./img/postapocalyptic.svg" alt="Post-apocalyptic Sci-Fi image" id="main-img">
+                        <img src="./img/ilustrations/postapocalyptic-M.png" alt="Post-apocalyptic Sci-Fi image" id="main-img">
                     </div>
                     <div class="main-content_category">
                         <h2 class="glow-text">Post-apocalyptic Sci-Fi</h2>
@@ -56,58 +70,18 @@
                 <h2>Top books</h2>
                 <div class="cards">
 
-                    <a href="book-detail_TheDayOffTheTriffids.html" target="_blank" class="card_link">
+                    <a href="book-detail_Blindness.html" target="_blank" class="card_link">
                         <div class="card">
                             <div class="card_image-container">
-                                <img src="./img/covers/TheDayOffTheTriffids.jpg" alt="The Day Off The Triffids Image">
-                            </div>
-                            <div class="card_content">
-                                <p class="card_title">The Day Off The Triffids</p>
-                                <p class="card_author">by John Wyndham</p>
-                            </div>
-                        </div>
-                    </a>
-
-                    <a href="book-detail_TheDayOffTheTriffids.html" target="_blank" class="card_link">
-                        <div class="card">
-                            <div class="card_image-container">
-                                <img src="./img/covers/WorldWarZ.jpg" alt="World War Z image">
-                            </div>
-                            <div class="card_content">
-                                <p class="card_title">World War Z</p>
-                                <p class="card_author">by Max Brooks</p>
-                            </div>
-                        </div>
-                    </a>
-
-                    <a href="book-detail_TheDayOffTheTriffids.html" target="_blank" class="card_link">
-                        <div class="card">
-                            <div class="card_image-container">
-                                <img src="./img/covers/TheAndromedaStrain.jpg" alt="The Andromeda Strain image">
-                            </div>
-                            <div class="card_content">
-                                <p class="card_title">The Andromeda Strain</p>
-                                <p class="card_author">by Michael Crichton</p>
-                            </div>
-                        </div>
-                    </a>
-
-                    <a href="book-detail_TheDayOffTheTriffids.html" target="_blank" class="card_link">
-                        <div class="card">
-                            <div class="card_image-container">
-                                <img src="./img/covers/TheHitchhikerGuideToTheGalaxy.jpg" alt="The Hitchhiker's Guide To The Galaxy image">
-                            </div>
-                            <div class="card_content">
-                                <p class="card_title">The Hitchhiker's Guide To The Galaxy</p>
-                                <p class="card_author">by Douglas Adams</p>
-                            </div>
-                        </div>
-                    </a>
-
-                    <a href="book-detail_TheDayOffTheTriffids.html" target="_blank" class="card_link">
-                        <div class="card">
-                            <div class="card_image-container">
-                                <img src="./img/covers/Blindness.jpg" alt="Blindness image">
+                                <img src="./img/covers/postapocaplyptic/Blindness-M.jpg"
+                                        srcset="
+                                        ./img/covers/postapocaplyptic/Blindness-M.jpg 330w,
+                                        ./img/covers/postapocaplyptic/Blindness-S.jpg 200w
+                                            "
+                                        sizes="
+                                            (max-width: 480px) 100vw,
+                                            100vw"
+                                        alt="Blindness cover book image">
                             </div>
                             <div class="card_content">
                                 <p class="card_title">Blindness</p>
@@ -116,10 +90,98 @@
                         </div>
                     </a>
 
-                    <a href="book-detail_TheDayOffTheTriffids.html" target="_blank" class="card_link">
+                    <a href="book-detail_Blindness.html" target="_blank" class="card_link">
                         <div class="card">
                             <div class="card_image-container">
-                                <img src="./img/covers/TheStand.jpg" alt="The Stand image">
+                                <img src="./img/covers/postapocaplyptic/TheDayOffTheTriffids-M.jpg"
+                                        srcset="
+                                        ./img/covers/postapocaplyptic/TheDayOffTheTriffids-M.jpg 330w,
+                                        ./img/covers/postapocaplyptic/TheDayOffTheTriffids-S.jpg 200w
+                                            "
+                                        sizes="
+                                            (max-width: 480px) 100vw,
+                                            100vw"
+                                        alt="The Day Off The Triffids cover book image">
+                            </div>
+                            <div class="card_content">
+                                <p class="card_title">The Day Off The Triffids</p>
+                                <p class="card_author">by John Wyndham</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="book-detail_Blindness.html" target="_blank" class="card_link">
+                        <div class="card">
+                            <div class="card_image-container">
+                                <img src="./img/covers/postapocaplyptic/WorldWarZ-M.jpg"
+                                        srcset="
+                                        ./img/covers/postapocaplyptic/WorldWarZ-M.jpg 330w,
+                                        ./img/covers/postapocaplyptic/WorldWarZ-S.jpg 200w
+                                            "
+                                        sizes="
+                                            (max-width: 480px) 100vw,
+                                            100vw"
+                                        alt="World War Z cover book image">
+                            </div>
+                            <div class="card_content">
+                                <p class="card_title">World War Z</p>
+                                <p class="card_author">by Max Brooks</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="book-detail_Blindness.html" target="_blank" class="card_link">
+                        <div class="card">
+                            <div class="card_image-container">
+                                <img src="./img/covers/postapocaplyptic/TheAndromedaStrain-M.jpg"
+                                        srcset="
+                                        ./img/covers/postapocaplyptic/TheAndromedaStrain-M.jpg 330w,
+                                        ./img/covers/postapocaplyptic/TheAndromedaStrain-S.jpg 200w
+                                            "
+                                        sizes="
+                                            (max-width: 480px) 100vw,
+                                            100vw"
+                                        alt="The Andromeda Strain cover book image">
+                            </div>
+                            <div class="card_content">
+                                <p class="card_title">The Andromeda Strain</p>
+                                <p class="card_author">by Michael Crichton</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="book-detail_Blindness.html" target="_blank" class="card_link">
+                        <div class="card">
+                            <div class="card_image-container">
+                                <img src="./img/covers/postapocaplyptic/TheHitchhikerGuideToTheGalaxy-M.jpg"
+                                        srcset="
+                                        ./img/covers/postapocaplyptic/TheHitchhikerGuideToTheGalaxy-M.jpg 330w,
+                                        ./img/covers/postapocaplyptic/TheHitchhikerGuideToTheGalaxy-S.jpg 200w
+                                            "
+                                        sizes="
+                                            (max-width: 480px) 100vw,
+                                            100vw"
+                                        alt="The Hitchhiker's Guide To The Galaxy cover book image">
+                            </div>
+                            <div class="card_content">
+                                <p class="card_title">The Hitchhiker's Guide To The Galaxy</p>
+                                <p class="card_author">by Douglas Adams</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="book-detail_Blindness.html" target="_blank" class="card_link">
+                        <div class="card">
+                            <div class="card_image-container">
+                                <img src="./img/covers/postapocaplyptic/TheStand-M.jpg"
+                                        srcset="
+                                        ./img/covers/postapocaplyptic/TheStand-M.jpg 330w,
+                                        ./img/covers/postapocaplyptic/TheStand-S.jpg 200w
+                                            "
+                                        sizes="
+                                            (max-width: 480px) 100vw,
+                                            100vw"
+                                        alt="The Stand cover book image">
                             </div>
                             <div class="card_content">
                                 <p class="card_title">The Stand</p>
@@ -128,10 +190,18 @@
                         </div>
                     </a>
 
-                    <a href="book-detail_TheDayOffTheTriffids.html" target="_blank" class="card_link">
+                    <a href="book-detail_Blindness.html" target="_blank" class="card_link">
                         <div class="card">
                             <div class="card_image-container">
-                                <img src="./img/covers/TheRoad.jpg" alt="The Road image">
+                                <img src="./img/covers/postapocaplyptic/TheRoad-M.jpg"
+                                        srcset="
+                                        ./img/covers/postapocaplyptic/TheRoad-M.jpg 330w,
+                                        ./img/covers/postapocaplyptic/TheRoad-S.jpg 200w
+                                            "
+                                        sizes="
+                                            (max-width: 480px) 100vw,
+                                            100vw"
+                                        alt="The Road cover book image">
                             </div>
                             <div class="card_content">
                                 <p class="card_title">The Road</p>
@@ -140,10 +210,18 @@
                         </div>
                     </a>
 
-                    <a href="book-detail_TheDayOffTheTriffids.html" target="_blank" class="card_link">
+                    <a href="book-detail_Blindness.html" target="_blank" class="card_link">
                         <div class="card">
                             <div class="card_image-container">
-                                <img src="./img/covers/StationEleven.jpg" alt="Station Eleven image">
+                                <img src="./img/covers/postapocaplyptic/StationEleven-M.jpg"
+                                        srcset="
+                                        ./img/covers/postapocaplyptic/StationEleven-M.jpg 330w,
+                                        ./img/covers/postapocaplyptic/StationEleven-S.jpg 200w
+                                            "
+                                        sizes="
+                                            (max-width: 480px) 100vw,
+                                            100vw"
+                                        alt="Station Eleven cover book image">
                             </div>
                             <div class="card_content">
                                 <p class="card_title">Station Eleven</p>
@@ -179,6 +257,14 @@
  
             <div class="my-name">
                 <span>2020 Juan Manuel Delgado Díaz</span>
+            </div>
+
+            <div class="footer-clip-container">
+                <div class="inner">
+                    <h1>
+                        SCI-FI
+                    </h1>
+                </div>
             </div>
    
         </footer>
