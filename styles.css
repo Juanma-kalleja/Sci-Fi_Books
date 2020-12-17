@@ -57,6 +57,10 @@ a{
   color: var(--contrastColor);
 }
 
+.ytdefer {
+  margin: auto;
+}
+
 /*Header*/
 .nav-container {
   width: 100%;
