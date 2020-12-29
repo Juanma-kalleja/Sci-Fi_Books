@@ -9,7 +9,7 @@
     <link rel="icon" type="image/png" href="./img/logo-icon/logo-XS.png"/>
     <title>The Handmaid's Tale</title>
     <script src="https://kit.fontawesome.com/a5fe1ac7ee.js" crossorigin="anonymous"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/lozad"></script> 
 </head>
 <body>
       <header class="nav-container">
@@ -17,13 +17,15 @@
             <div class="logo-container">
                 <a href="index.html" class="top-log">
                     <img id="logo" 
-                    
-                    srcset="
+                    loading="lazy"
+                    class="lozad"
+                    data-srcset="
                         ./img/logo-icon/logo-S.png 32w, 
                         ./img/logo-icon/logo-M.png 48w" 
                     sizes="(max-width: 850px) 32px,
                             48px" 
-                    src="./img/logo-icon/logo-M.png" 
+                    data-src="./img/logo-icon/logo-M.png" 
+                    src="./img/placeholder-image.png" 
                     alt="Logo SciFi books">
                 </a>
                 <span id="navbar-logo">SCI-FI</span>
@@ -60,8 +62,12 @@
       
                 <div class="detail-detail">
                   <div class="detail-detail_image-container">
-                    <img src="./img/covers/social/theHandmaidsTale-L.jpg"
-                    srcset="
+                    <img 
+                    loading="lazy"
+                    class="lozad"
+                    src="./img/placeholder-image.png"
+                    data-src="./img/covers/social/theHandmaidsTale-L.jpg"
+                    data-srcset="
                     ./img/covers/social/theHandmaidsTale-S.jpg 200w,
                     ./img/covers/social/theHandmaidsTale-L.jpg 600w,
                     ./img/covers/social/theHandmaidsTale-M.jpg 330w
@@ -144,7 +150,7 @@
                     </p>
 
                     <figure>
-                        <picture>
+                        <picture class="lozad" data-iesrc="./img/theHandmaidsTale/theHandmaidsTale-4-L.jpg">
                             <source media="(max-width: 480px)"
                                     srcset="./img/theHandmaidsTale/theHandmaidsTale-4-S.jpg">
                           

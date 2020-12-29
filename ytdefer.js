@@ -8,7 +8,6 @@ var yt_dark_icon = '<svg height="100%" version="1.1" xmlns="http://www.w3.org/20
 
 function ytdefer_setup()
 {
-    console.log('hola');
     var d = document;
     var els = d.getElementsByClassName('ytdefer');
     for(var i = 0; i < els.length; i++)

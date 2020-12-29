@@ -22,6 +22,7 @@
     "rimraf": "^3.0.2"
   },
   "dependencies": {
-    "data.js": "^0.12.11"
+    "data.js": "^0.12.11",
+    "lozad": "^1.16.0"
   }
 }
