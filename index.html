@@ -9,7 +9,6 @@
     <link rel="icon" type="image/png" href="./img/logo-icon/logo-XS.png"/>
     <title>Sci-Fi Books</title>
     <script src="https://kit.fontawesome.com/a5fe1ac7ee.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/lozad"></script>  
 </head>
 <body>
     <header class="nav-container">
@@ -17,17 +16,19 @@
             <div class="logo-container">
                 <a href="index.html" class="top-log">
                     <img id="logo" 
-                    loading="lazy"
-                    data-srcset="./img/logo-icon/logo-S.png 32w, ./img/logo-icon/logo-M.png 48w" 
+                    class="lozad"
+                    data-srcset="
+                        ./img/logo-icon/logo-S.png 32w, 
+                        ./img/logo-icon/logo-M.png 48w" 
                     sizes="(max-width: 850px) 32px,
                             48px" 
                     data-src="./img/logo-icon/logo-M.png" 
                     src="./img/placeholder-image.png"
-                    alt="Logo SciFi books"
-                    class="lozad">
+                    alt="Logo SciFi books">
                 </a>
                 <span id="navbar-logo">SCI-FI</span>
             </div>
+            
             <div class="menu-toggle" id="mobile-menu">
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -58,18 +59,7 @@
                     </p>
                 </div>
                     <div class="main-img-container-category">
-                        <img 
-                        class="lozad"
-                        loading="lazy"
-                        data-src="./img/ilustrations/main-img-M.png" 
-                        data-srcset="
-                                ./img/ilustrations/main-img-S.png 200w,
-                                ./img/ilustrations/main-img-M.png 600w,
-                                ./img/ilustrations/main-img-S.png 220w"
-                        src="./img/placeholder-image.png"
-                        
-                        alt="Social Sci-Fi image" 
-                        id="main-img">
+                        <img class="lozad" data-src="./img/ilustrations/main-img-M.png" src="./img/placeholder-image.png" alt="" id="main-img">
                     </div>
                 </div>
             </div>
@@ -84,8 +74,6 @@
                         <div class="category-card_container"> 
                             <img 
                                 class="category-img lozad"
-                                loading="lazy"
-                                src="./img/placeholder-image.png"
                                 data-srcset="
                                 ./img/ilustrations/social-S.png 200w,
                                 ./img/ilustrations/social-M.png 600w,
@@ -97,7 +85,7 @@
                                     100vw"
 
                                 data-src="./img/ilustrations/social-M.png"
-
+                                src="./img/placeholder-image.png"
                                 alt="Social category image">
                         
                         <div class="category-card_content">
@@ -113,8 +101,6 @@
                             <div class="category-card_container">
                                 <img 
                                 class="category-img lozad"
-                                loading="lazy"
-                                src="./img/placeholder-image.png"
                                 data-srcset="
                                 ./img/ilustrations/postapocalyptic-S.png 200w,
                                 ./img/ilustrations/postapocalyptic-M.png 600w,
@@ -126,7 +112,7 @@
                                     100vw"
 
                                 data-src="./img/ilustrations/postapocalyptic-M.png"
-
+                                src="./img/placeholder-image.png"
                                 alt="post-apocalyptic category image">
                             <div class="category-card_content">
                                 <h3>POST-APOCALYPTIC</h3>
@@ -140,8 +126,6 @@
                             <div class="category-card_container">
                                 <img 
                                 class="category-img lozad"
-                                loading="lazy"
-                                src="./img/placeholder-image.png"
                                 data-srcset="
                                 ./img/ilustrations/military-S.png 200w,
                                 ./img/ilustrations/military-M.png 600w,
@@ -153,7 +137,7 @@
                                     100vw"
 
                                 data-src="./img/ilustrations/military-M.png"
-
+                                    src="./img/placeholder-image.png"
                                 alt="military category image">
                             <div class="category-card_content">
                                 <h3>MILITARY</h3>
@@ -167,8 +151,6 @@
                             <div class="category-card_container">
                                 <img 
                                 class="category-img lozad"
-                                loading="lazy"
-                                src="./img/placeholder-image.png"
                                 data-srcset="
                                 ./img/ilustrations/space-S.png 200w,
                                 ./img/ilustrations/space-M.png 600w,
@@ -180,7 +162,7 @@
                                     100vw"
 
                                 data-src="./img/ilustrations/space-M.png"
-
+                                src="./img/placeholder-image.png"
                                 alt="space category image">
                             <div class="category-card_content">
                                 <h3>SPACE</h3>
@@ -194,8 +176,6 @@
                             <div class="category-card_container">
                                 <img 
                                 class="category-img lozad"
-                                loading="lazy"
-                                src="./img/placeholder-image.png"
                                 data-srcset="
                                 ./img/ilustrations/retrofuturism-S.png 200w,
                                 ./img/ilustrations/retrofuturism-M.png 600w,
@@ -207,7 +187,7 @@
                                     100vw"
 
                                 data-src="./img/ilustrations/retrofuturism-M.png"
-
+                                src="./img/placeholder-image.png"
                                 alt="retrofuturism category image">
                             <div class="category-card_content">
                                 <h3>RETROFUTURISM</h3>
@@ -221,8 +201,6 @@
                             <div class="category-card_container">
                                 <img 
                                 class="category-img lozad"
-                                loading="lazy"
-                                src="./img/placeholder-image.png"
                                 data-srcset="
                                 ./img/ilustrations/timetravel-S.png 200w,
                                 ./img/ilustrations/timetravel-M.png 600w,
@@ -234,7 +212,7 @@
                                     100vw"
 
                                 data-src="./img/ilustrations/timetravel-M.png"
-
+                                src="./img/placeholder-image.png"
                                 alt="timetravel category image">
                             <div class="category-card_content">
                                 <h3>TIME TRAVEL</h3>
@@ -285,6 +263,9 @@
 
         </footer>
     
+     <!-- <a href="#" class="to-top">
+        <i class="fas fa-chevron-up"></i>
+      </a> -->
     <script src="./app.js"></script>
 </body>
 </html>

@@ -13,10 +13,10 @@ function ytdefer_setup()
     for(var i = 0; i < els.length; i++)
     {
         var e = els[i];
-        var ds = e.getAttribute('data-src');
+        var ds = e.getAttribute('id');
         if (!ds)
         {
-            alert("data-src missing for video");
+            alert("id missing for video");
             return;
         }
 
@@ -130,7 +130,7 @@ function gen_ytdefer_clk(i)
     {
         var d = document;
         var el = d.getElementById('ytdefer_vid'+i);
-        var vid_id = el.parentNode.getAttribute('data-src');
+        var vid_id = el.parentNode.getAttribute('id');
         var player = new YT.Player(el.id, 
         {
             height: el.style.height,

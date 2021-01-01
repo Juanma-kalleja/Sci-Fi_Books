@@ -61,20 +61,6 @@ a{
   margin: auto;
 }
 
-.fade {
-  animation-name: fade;
-  animation-duration: 2s;
-}
-
-@keyframes fade {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
 /*Header*/
 .nav-container {
   width: 100%;
@@ -738,6 +724,19 @@ footer li {
   margin: 0;
 }
 
+.fade {
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 
 /* ----- */
 @media only screen and (max-width: 1350px) {
